@@ -287,6 +287,89 @@ body {
   color: var(--color-secondary);
 }
 
+/* Comparison Bar Chart Styles */
+.comparison-card {
+  grid-column: span 2;
+}
+
+.comparison-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.comparison-bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.comparison-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.comparison-label {
+  min-width: 120px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  text-align: right;
+}
+
+.comparison-bar-wrapper {
+  flex: 1;
+  height: 40px;
+  background: var(--color-background-alt);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.comparison-bar {
+  height: 100%;
+  width: calc(var(--width));
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: var(--spacing-md);
+  transition: width 0.5s ease-out;
+}
+
+.comparison-bar.highlight {
+  background: linear-gradient(90deg, #16a34a 0%, #15803d 100%);
+}
+
+.comparison-value {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .comparison-card {
+    grid-column: span 1;
+  }
+  
+  .comparison-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .comparison-label {
+    text-align: left;
+    min-width: auto;
+  }
+  
+  .comparison-bar-wrapper {
+    width: 100%;
+  }
+}
+
 /* Situation Section */
 .situation {
   padding: var(--spacing-3xl) var(--spacing-lg);
@@ -440,7 +523,7 @@ body {
 
 .partner-card {
   background: var(--color-background-alt);
-  padding: var(--spacing-2xl);
+  padding: var(--spacing-sm);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   transition: all var(--transition-base);
@@ -449,6 +532,20 @@ body {
 .partner-card:hover {
   border-color: var(--color-primary);
   box-shadow: var(--shadow-lg);
+}
+
+.partner-logo {
+  width: 100%;
+  max-width: 220px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: var(--spacing-lg);
+  display: block;
+}
+
+.partner-logo-large {
+  max-width: 640px;
+  height: 140px;
 }
 
 .partner-name {
@@ -668,7 +765,7 @@ body {
   }
   
   .partner-card {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
   }
 }
 
