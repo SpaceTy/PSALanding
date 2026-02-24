@@ -1,3 +1,4 @@
+import { Router, Route } from 'preact-router';
 import { Hero } from './components/Hero.tsx';
 import { Statistics } from './components/Statistics.tsx';
 import { Situation } from './components/Situation.tsx';
@@ -6,10 +7,11 @@ import { Goal } from './components/Goal.tsx';
 import { Partners } from './components/Partners.tsx';
 import { CallToAction } from './components/CallToAction.tsx';
 import { Footer } from './components/Footer.tsx';
+import { ScientificFoundation } from './components/ScientificFoundation.tsx';
 
-export function App() {
+function HomePage() {
   return (
-    <main class="app">
+    <>
       <Hero />
       <Statistics />
       <Situation />
@@ -18,6 +20,17 @@ export function App() {
       <Partners />
       <CallToAction />
       <Footer />
+    </>
+  );
+}
+
+export function App() {
+  return (
+    <main class="app">
+      <Router>
+        <Route path="/" component={HomePage} />
+        <Route path="/wissenschaftliche-grundlage" component={ScientificFoundation} />
+      </Router>
     </main>
   );
 }

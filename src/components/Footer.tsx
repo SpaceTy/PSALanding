@@ -32,6 +32,11 @@ export function Footer() {
             </a>
           </li>
         </ol>
+        <div class="footer-links">
+          <a href="/wissenschaftliche-grundlage" class="btn btn-outline">
+            📚 Alle wissenschaftlichen Quellen
+          </a>
+        </div>
         <div class="footer-bottom">
           <p>© {new Date().getFullYear()} Projekt Staying Alive. Alle Rechte vorbehalten.</p>
         </div>
