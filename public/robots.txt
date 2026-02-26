@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://stayingalive.berlin/sitemap.xml
+Sitemap: https://www.heldenberlin.de/sitemap.xml
