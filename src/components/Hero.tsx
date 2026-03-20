@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-content">
         <h1 class="hero-title">
           <span class="hero-badge"></span>
@@ -14,8 +14,13 @@ export function Hero() {
           Lehrkräfte werden befähigt, eigenständig Wiederbelebung zu unterrichten – nachhaltig, skalierbar, berlinweit.
         </p>
         <div class="hero-buttons">
-          <a href="#mitmachen" class="btn btn-primary">
-            🔴 Jetzt mitmachen
+          <a
+            href="https://app.heldenberlin.de"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔴 Zu Platform
           </a>
           <a href="#unterstuetzen" class="btn btn-secondary">
             🔴 Projekt unterstützen

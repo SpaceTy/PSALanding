@@ -5,9 +5,17 @@ export function CallToAction() {
         <h2 class="cta-title">
           <span class="section-badge">🟥</span> Berlin kann Leben retten.
         </h2>
+        <p class="cta-intro">
+          Schulen können direkt über die App einsteigen und ihre Teilnahme starten.
+        </p>
         <div class="cta-buttons">
-          <a href="#anmelden" class="btn btn-primary btn-large">
-            Jetzt Schule anmelden
+          <a
+            href="https://app.heldenberlin.de"
+            class="btn btn-primary btn-large btn-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Zu Platform
           </a>
           <a href="#partner" class="btn btn-secondary btn-large">
             Jetzt Partner werden
