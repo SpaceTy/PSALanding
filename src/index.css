@@ -183,8 +183,17 @@ body {
 .hero-subtitle {
   font-size: var(--font-size-2xl);
   font-weight: 600;
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   opacity: 0.95;
+}
+
+.hero-launch-date {
+  font-size: clamp(2.25rem, 6vw, 4.75rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-lg);
+  line-height: 1;
 }
 
 .hero-description {
@@ -530,7 +539,7 @@ body {
 }
 
 .partner-card:hover {
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
   box-shadow: var(--shadow-lg);
 }
 
@@ -543,28 +552,17 @@ body {
   display: block;
 }
 
-.partner-logo-large {
-  max-width: 640px;
-  height: 140px;
-}
-
 .partner-name {
   font-size: var(--font-size-lg);
   font-weight: 700;
   margin-bottom: var(--spacing-md);
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .partner-description {
   font-size: var(--font-size-sm);
   color: var(--color-text-light);
   line-height: 1.7;
-}
-
-.partners-note {
-  text-align: center;
-  color: var(--color-text-light);
-  font-size: var(--font-size-base);
 }
 
 /* Call to Action Section */

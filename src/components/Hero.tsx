@@ -7,6 +7,7 @@ export function Hero() {
           PROJEKT STAYING ALIVE
         </h1>
         <h2 class="hero-subtitle">Neue Helden für Berlin</h2>
+        <p class="hero-launch-date">Launch März 2026</p>
         <p class="hero-description">
           Unser Ziel: Wir bringen Reanimationsunterricht systematisch an Berliner Schulen.
         </p>
@@ -20,7 +21,7 @@ export function Hero() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔴 Zu Platform
+            🔴 Unterrichtsmaterialien hier bestellen
           </a>
           <a href="#unterstuetzen" class="btn btn-secondary">
             🔴 Projekt unterstützen

@@ -17,14 +17,14 @@ export function Solution() {
             <div class="solution-number">2</div>
             <h3 class="solution-title">Materialien sichern</h3>
             <p class="solution-description">
-              Trainingspuppen & AED-Trainer werden durch eine Logistik-Website zentral organisiert und zugänglich gemacht.
+              Trainingspuppen, AED-Trainer und Unterrichtsmaterialien werden über eine Logistik-Website zentral organisiert und zugänglich gemacht.
             </p>
           </div>
           <div class="solution-card">
             <div class="solution-number">3</div>
             <h3 class="solution-title">Berlinweit skalieren</h3>
             <p class="solution-description">
-              Vom Pilotprojekt zur flächendeckenden Infrastruktur mit Hilfe und Kooperation des Senats.
+              Vom Pilotprojekt zur flächendeckenden Infrastruktur für Berliner Schulen.
             </p>
           </div>
         </div>

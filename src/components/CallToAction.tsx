@@ -15,13 +15,7 @@ export function CallToAction() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Zu Platform
-          </a>
-          <a href="#partner" class="btn btn-secondary btn-large">
-            Jetzt Partner werden
-          </a>
-          <a href="#unterstuetzen" class="btn btn-outline btn-large">
-            Jetzt unterstützen
+            Unterrichtsmaterialien hier bestellen
           </a>
         </div>
         <div class="cta-contact">

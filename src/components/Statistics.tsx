@@ -1,13 +1,13 @@
 import { useCountUp } from '../hooks/useCountUp';
 
-function AnimatedNumber({ end, suffix = '', decimals = 0, duration = 500 }: { end: number; suffix?: string; decimals?: number; duration?: number }) {
+function AnimatedNumber({ end, suffix = '', decimals = 0, duration = 1600 }: { end: number; suffix?: string; decimals?: number; duration?: number }) {
   const { value, ref } = useCountUp({ end, suffix, decimals, duration });
   return <span ref={ref}>{value}{suffix}</span>;
 }
 
 function ComparisonBarChart() {
-  const { value: germanyValue, rawValue: germanyRaw, ref: ref1 } = useCountUp({ end: 51, duration: 500 });
-  const { value: norwayValue, rawValue: norwayRaw, ref: ref2 } = useCountUp({ end: 85, duration: 500 });
+  const { value: germanyValue, rawValue: germanyRaw, ref: ref1 } = useCountUp({ end: 51, duration: 1800 });
+  const { value: norwayValue, rawValue: norwayRaw, ref: ref2 } = useCountUp({ end: 85, duration: 1800 });
   
   return (
     <div class="stat-card comparison-card" ref={ref1}>
@@ -44,7 +44,7 @@ export function Statistics() {
         <div class="stats-grid">
           <div class="stat-card">
             <div class="stat-number">
-              <AnimatedNumber end={10000} duration={1000} />
+              <AnimatedNumber end={10000} duration={2200} />
             </div>
             <div class="stat-label">
               vermeidbare Todesfälle pro Jahr durch fehlende Laienreanimation<sup>1</sup>

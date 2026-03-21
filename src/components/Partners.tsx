@@ -1,4 +1,3 @@
-import lagLogo from '../assets/Landesarbeitsgemeinschaft Erste Hilfe.png';
 import pepiniereLogo from '../assets/Pépinière Stiftung.png';
 import bcsLogo from '../assets/Berlin Cosmopolitan School.png';
 
@@ -11,17 +10,16 @@ export function Partners() {
         </h2>
         <div class="partners-grid">
           <div class="partner-card">
-            <img src={lagLogo} alt="Landesarbeitsgemeinschaft Erste Hilfe Logo" class="partner-logo partner-logo-large" />
-            <h3 class="partner-name">Landesarbeitsgemeinschaft Erste Hilfe</h3>
-            <p class="partner-description">
-              Die Landesarbeitsgemeinschaft Erste Hilfe Berlin / Brandenburg ist der Zusammenschluss der fünf großen deutschen Hilfsorganisationen in der Region und koordiniert unter einem gemeinsamen Logo abgestimmte Maßnahmen sowie qualitätsgesicherte Konzepte in der Erste-Hilfe-Ausbildung.
-            </p>
-          </div>
-          <div class="partner-card">
             <img src={pepiniereLogo} alt="Pépinière Stiftung Logo" class="partner-logo" />
             <h3 class="partner-name">Pépinière Stiftung</h3>
             <p class="partner-description">
               Die Pépinière Stiftung engagiert sich bundesweit gezielt für Projekte im Bereich der Ersten Hilfe und hat bereits in Brandenburg vergleichbare Initiativen umgesetzt. Mit ihrer Erfahrung und Infrastruktur unterstützt sie Programme, die Reanimationskompetenz nachhaltig stärken und lebensrettende Fähigkeiten fördern.
+            </p>
+          </div>
+          <div class="partner-card">
+            <h3 class="partner-name">Weitere Partner</h3>
+            <p class="partner-description">
+              Weitere Partner und Unterstützer werden aktuell eingebunden, um das Projekt berlinweit tragfähig aufzubauen und langfristig zu skalieren.
             </p>
           </div>
           <div class="partner-card">
@@ -32,9 +30,6 @@ export function Partners() {
             </p>
           </div>
         </div>
-        <p class="partners-note">
-          <em>Weitere Kooperationen im Aufbau.</em>
-        </p>
       </div>
     </section>
   );

@@ -31,7 +31,7 @@ export function FloatingAppLink() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Zu Platform
+      Unterrichtsmaterialien
     </a>
   );
 }

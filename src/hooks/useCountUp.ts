@@ -18,7 +18,7 @@ interface UseCountUpReturn {
 export function useCountUp({
   start = 0,
   end,
-  duration = 500,
+  duration = 1600,
   decimals = 0,
   suffix = '',
 }: UseCountUpOptions): UseCountUpReturn {

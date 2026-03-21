@@ -18,7 +18,7 @@ export function Situation() {
               Die Umsetzung ist bundesweit uneinheitlich.
             </span>
           </li>
-          <li class="situation-item alert">
+          <li class="situation-item">
             <span class="situation-icon">🚨</span>
             <span class="situation-text">
               Berlin und Bremen meldeten 2022 als einzige Bundesländer keine strukturierten Implementierungsmaßnahmen<sup>3</sup>.
