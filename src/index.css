@@ -637,14 +637,56 @@ body {
   background: rgba(255, 255, 255, 0.96);
 }
 
-.cta-contact {
+.about-section {
   text-align: center;
   padding: var(--spacing-xl);
   background: white;
   border-radius: var(--radius-lg);
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 760px;
+  margin: 0 auto var(--spacing-xl);
   box-shadow: var(--shadow-md);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.about-card {
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.about-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--radius-full);
+  margin: 0 auto var(--spacing-md);
+}
+
+.about-name {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.about-role {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+.about-email a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.about-email a:hover {
+  text-decoration: underline;
 }
 
 .contact-title {
@@ -652,21 +694,6 @@ body {
   font-weight: 700;
   margin-bottom: var(--spacing-md);
   color: var(--color-secondary);
-}
-
-.contact-info {
-  font-size: var(--font-size-base);
-  color: var(--color-text-light);
-  line-height: 1.8;
-}
-
-.contact-info a {
-  color: var(--color-primary);
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
 }
 
 /* Footer */
@@ -757,6 +784,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
   :root {
     --font-size-4xl: 1.875rem;
     --font-size-5xl: 2.25rem;
