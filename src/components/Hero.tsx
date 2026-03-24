@@ -3,8 +3,7 @@ export function Hero() {
     <section class="hero" id="hero">
       <div class="hero-content">
         <h1 class="hero-title">
-          <span class="hero-badge"></span>
-          PROJEKT STAYING ALIVE
+          <img src="/favicon.jpg" alt="Projekt Staying Alive" class="hero-logo" role="img" />
         </h1>
         <h2 class="hero-subtitle">Neue Helden für Berlin</h2>
         <p class="hero-launch-date">Launch März 2026</p>
