@@ -45,6 +45,15 @@ export function CallToAction() {
                 <a href="mailto:peselis20100@gmail.com">peselis20100@gmail.com</a>
               </p>
             </div>
+            <div class="about-card">
+              <img
+                src="/akhil.jpeg"
+                alt="Akhil Arhant Viknesh"
+                class="about-photo"
+              />
+              <p class="about-name">Akhil Arhant Viknesh</p>
+              <p class="about-role">Logo Designer</p>
+            </div>
           </div>
         </div>
       </div>
