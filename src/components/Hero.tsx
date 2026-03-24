@@ -22,7 +22,7 @@ export function Hero() {
           >
             🔴 Unterrichtsmaterialien hier bestellen
           </a>
-          <a href="#unterstuetzen" class="btn btn-secondary">
+          <a href="/spende" class="btn btn-secondary">
             🔴 Projekt unterstützen
           </a>
         </div>

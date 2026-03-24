@@ -8,6 +8,7 @@ import { Partners } from './components/Partners.tsx';
 import { CallToAction } from './components/CallToAction.tsx';
 import { Footer } from './components/Footer.tsx';
 import { ScientificFoundation } from './components/ScientificFoundation.tsx';
+import { Spende } from './components/Spende.tsx';
 import { FloatingAppLink } from './components/FloatingAppLink.tsx';
 
 function HomePage() {
@@ -32,6 +33,7 @@ export function App() {
       <Router>
         <Route path="/" component={HomePage} />
         <Route path="/wissenschaftliche-grundlage" component={ScientificFoundation} />
+        <Route path="/spende" component={Spende} />
       </Router>
     </main>
   );
